@@ -1,3 +1,32 @@
-iest
-wijziging
-3e wijziging
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><script>
+function tekstverwerken() {
+    let a=document.getElementById("invoer").value;
+    var c=document.getElementById("getal").value;
+    var b=document.getElementById("uitvoer");
+    if (c>=a.length){
+        b.innerHTML="het past"
+    }
+else {
+    b.innerHTML="het past niet"
+}
+
+
+}
+
+</script>
+
+<body>
+
+  <input id="invoer">  
+  <input id="getal"> 
+  <div id="uitvoer"> algo </div>
+<button onclick= "tekstverwerken()">click</button>
+</body>
+</html>
